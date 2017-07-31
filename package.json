@@ -1,8 +1,8 @@
 {
-  "name": "express-mongoose-es6-rest-api",
-  "version": "2.0.0",
-  "description": "A Boilerplate application for building REST APIs using express, mongoose in ES6 with code coverage",
-  "author": "Kunal Kapadia <kunalkapadia12@gmail.com>",
+  "name": "hivemind-microservice",
+  "version": "0.0.1",
+  "description": "Hivemind Microservice template with authentication built in.",
+  "author": "Dylan Lott <lott.dylan@gmail.com>",
   "main": "index.js",
   "private": false,
   "engines": {
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:KunalKapadia/express-mongoose-es6-rest-api.git"
+    "url": "git@github.com:hivemindapps/hivemind-microservice.git"
   },
   "keywords": [
     "express",
@@ -41,11 +41,14 @@
     "boilerplate"
   ],
   "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bcrypt-nodejs": "0.0.3",
     "bluebird": "3.4.6",
     "body-parser": "1.15.2",
     "compression": "1.6.2",
     "cookie-parser": "1.4.3",
     "cors": "2.8.1",
+    "crypto": "0.0.3",
     "debug": "^2.4.5",
     "dotenv": "^4.0.0",
     "express": "4.14.0",
@@ -55,10 +58,13 @@
     "helmet": "3.1.0",
     "http-status": "^0.2.0",
     "joi": "10.0.6",
-    "jsonwebtoken": "7.1.9",
+    "jsonwebtoken": "^7.1.9",
     "method-override": "^2.3.5",
     "mongoose": "4.7.4",
     "morgan": "1.7.0",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "passport-local": "^1.0.0",
     "winston": "2.3.0"
   },
   "devDependencies": {
